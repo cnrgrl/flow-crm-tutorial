@@ -24,7 +24,7 @@ public class MainLayout extends AppLayout {
     private void createHeader() {
         H1 logo = new H1("Vaadin CRM");
         logo.addClassNames(
-            LumoUtility.FontSize.LARGE,
+            LumoUtility.FontSize.XLARGE,
             LumoUtility.Margin.MEDIUM);
 
         String u = securityService.getAuthenticatedUser().getUsername();
